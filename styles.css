@@ -1,0 +1,36 @@
+body{
+    background: -webkit-linear-gradient(left, #0c0111, #110116);
+    font-family: 'Quicksand', sans-serif;
+}
+.vue-app{
+    padding: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-radius: 0.5rem;
+    background: rgb(255, 255, 255);
+}
+.profile-img{
+    text-align: center;
+}
+.profile-img img{
+    width: 70%;
+    height: 100%;
+}
+.profile-img .file {
+    position: relative;
+    overflow: hidden;
+    margin-top: -20%;
+    width: 70%;
+    border: none;
+    border-radius: 0;
+    font-size: 15px;
+    background: #212529b8;
+}
+
+td {
+    font-size: 15px;
+}
+
+.value {
+    font-weight: bold;
+}
