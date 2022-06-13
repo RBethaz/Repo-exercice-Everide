@@ -18,4 +18,4 @@ echo "array_sum($a)
 ----------------------------------------------------------------
 
 Question 3 : L’opérateur == vérifie simplement si la valeur à gauche et à droite sont égales. Mais, l’opérateur === vérifie en fait si les valeurs à 
-auche et à droite sont égales, et vérifie également si elles sont du même type de variable.
+gauche et à droite sont égales, et vérifie également si elles sont du même type de variable.

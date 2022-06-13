@@ -18,7 +18,7 @@ Question 4 : l'index est une structure de données utilisée et entretenue par l
 
 ----------------------------------------------------------------
 
-Question 5 : connaître le nombre d’enregistrements dans la table, il faudra effectuer une requête préalable. Par exemple en PHP :
+Question 5 : Pour connaître le nombre d’enregistrements dans la table, il faudra effectuer une requête préalable. Par exemple en PHP :
 
 $sql = "SELECT * FROM unetablerandom;";
 $req = mysql_query($sql);
