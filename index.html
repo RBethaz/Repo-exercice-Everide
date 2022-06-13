@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet"> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="container vue-app" id="app">
+        <form method="post">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="profile-img">
+                        <img :src="picture" :alt="`${firstName} ${lastName}`"/>
+                    </div>
+                    <div class="container">
+                        <p class="text-center"><b>Login Info</b></p>
+                        <table class="table">
+                            <tr>
+                                <td>username</td>
+                                <td>{{username}}</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <h4>{{firstName}} {{lastName}}</h4>
+
+                    <br>
+                    <table class="table">
+                        <p><b>Personal Info</b></p>
+                        <tr>
+                            <td>Title</td>
+                            <td class="value">{{title}}</td>
+                        </tr>
+                        <tr>
+                            <td>First name</td>
+                            <td class="value">{{firstName}}</td>
+                        </tr>
+                        <tr>
+                            <td>Last Name</td>
+                            <td class="value">{{lastName}}</td>
+                        </tr>
+                        <tr>
+                            <td>Gender</td>
+                            <td class="value">{{gender}}</td>
+                        </tr>
+                        <tr>
+                            <td>Age</td>
+                            <td class="value">{{age}}</td>
+                        </tr>
+                    </table>
+                    <hr>
+                    <table class="table">
+                        <p><b>Address</b></p>
+                        <tr>
+                            <td>City</td>
+                            <td class="value">{{city}}</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </form> 
+        <hr>          
+        <p class="small text-center">API data from <a href="https://randomuser.me">RandomUser.me</a></p>
+    </div>
+    <script src="https://unpkg.com/vue@3.0.5"></script>
+    <script src="app.js"></script>
+</body>
+</html>

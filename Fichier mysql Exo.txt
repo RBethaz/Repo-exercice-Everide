@@ -1,0 +1,27 @@
+Question 1 :  une clé primaire est la donnée qui permet d'identifier de manière unique un enregistrement dans une table.
+
+----------------------------------------------------------------
+
+Question 2 : Les jointures en SQL permettent d'associer plusieurs tables dans une même requêt.
+
+
+----------------------------------------------------------------
+
+Question 3 : Les différents types de jointures : 
+INNER JOIN / CROSS JOIN / LEFT JOIN / RIGHT JOIN / FULL JOIN / SELF JOIN / NATURAL JOIN / UNION JOIN
+
+
+----------------------------------------------------------------
+
+Question 4 : l'index est une structure de données utilisée et entretenue par le système de gestion de base de données pour lui permettre de retrouver rapidement les données
+
+
+----------------------------------------------------------------
+
+Question 5 : connaître le nombre d’enregistrements dans la table, il faudra effectuer une requête préalable. Par exemple en PHP :
+
+$sql = "SELECT * FROM unetablerandom;";
+$req = mysql_query($sql);
+$t = mysql_num_rows($req);
+
+ 
