@@ -30,12 +30,10 @@ const app = Vue.createApp({
 });
 
 function updateFields(that, results) {
-  that.dob = new Date(results[0].dob.date).toLocaleDateString();
   that.age = results[0].dob.age;
   that.title = results[0].name.title;
   that.firstName = results[0].name.first;
   that.lastName = results[0].name.last;
-  that.email = results[0].email;
   that.gender = results[0].gender;
   that.picture = results[0].picture.large;
   that.city = results[0].location.city;
